@@ -14,8 +14,8 @@ var wizardEyes = ['black', 'red', 'blue', 'yellow', 'green'];
 
 var similarListElement = document.querySelector('.setup-similar-list');
 var similarWizardTemplate = document.querySelector('#similar-wizard-template')
-  .content
-  .querySelector('.setup-similar-item');
+    .content
+    .querySelector('.setup-similar-item');
 var fragment = document.createDocumentFragment();
 
 for (var i = 0; i < 4; i++) {
